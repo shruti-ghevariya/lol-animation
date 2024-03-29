@@ -12,12 +12,12 @@ export default function Jobmaking() {
                 <div className="grid">
                     <div className="grid-items">
                         <div className="poster-img">
-                            <img src={posterImg} alt="" />
+                            <img src={posterImg} alt="lol-pic" />
                         </div>
                     </div>
                     <div className="grid-items">
                         <div className="vector-design-text">
-                            <img src={vectorDesign} alt="" />
+                            <img src={vectorDesign} alt="lol-pic" />
                         </div>
                         <h1>What if your job was making funny jokes and posting them online? Crazy, right!?</h1>
                         <p> "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."</p>

@@ -32,13 +32,13 @@ export default function WaitingListBanner() {
                     </div>
                     <div className="grid-item2">
                         <div className="mail-image">
-                            <img src={mailImage} alt="" />
+                            <img src={mailImage} alt="lol-pic" />
                         </div>
                         <div className="ball-image-right">
-                            <img src={ballImage} alt="" />
+                            <img src={ballImage} alt="lol-pic" />
                         </div>
                         <div className="mail-last-child">
-                            <img src={mailLastChild} alt="" />
+                            <img src={mailLastChild} alt="lol-pic" />
                         </div>
                     </div>
                 </div>

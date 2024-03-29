@@ -20,7 +20,7 @@ export default function Herobanner() {
                 <div className="grid">
                     <div className="grid-left">
                         <div className="left-emoji">
-                            <img src={leftEmoji} alt="" />
+                            <img src={leftEmoji} alt="lol-pic" />
                         </div>
                         <div className="left-blur-1"></div>
                         <div className="text">If you're reading this you're still alive. Life is short! Do something fun!</div>
@@ -59,7 +59,7 @@ export default function Herobanner() {
                             <img src={yummy} alt="yummy" />
                         </div>
                         <div className="over-smile">
-                            <img src={oversmile} alt="" />
+                            <img src={oversmile} alt="lol-pic" />
                         </div>
                     </div>
                 </div>

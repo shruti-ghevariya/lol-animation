@@ -39,16 +39,16 @@ export default function LifeIsJoke() {
                             <img src={jokercap} alt="joker-cap" />
                         </div>
                         <div className="vector-sec">
-                            <img src={vector} alt="" />
+                            <img src={vector} alt="lol-pic" />
                         </div>
                         <div className="vector-three">
-                            <img src={glass} alt="" />
+                            <img src={glass} alt="lol-pic" />
                         </div>
                         <div className="vector-four">
-                            <img src={pipe} alt="" />
+                            <img src={pipe} alt="lol-pic" />
                         </div>
                         <div className="face-icon-center">
-                            <img src={faceIcon} alt="" />
+                            <img src={faceIcon} alt="lol-pic" />
                         </div>
                     </div>
                 </div>
