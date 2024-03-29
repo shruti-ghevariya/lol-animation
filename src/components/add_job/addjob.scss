@@ -1,0 +1,90 @@
+.add-job {
+
+    .text-grid {
+        padding-top: 86px;
+        height: fit-content;
+
+        h1 {
+            font-size: 55px;
+            line-height: 1.3;
+            font-weight: 600;
+            letter-spacing: -.02em;
+            color: #14122c;
+            text-align: center;
+            margin: 0 0 30px;
+        }
+
+        .child-text-center {
+            display: flex;
+            justify-content: center;
+
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 27px;
+                color: #747474;
+                max-width: 675px;
+                letter-spacing: .02em;
+            }
+        }
+    }
+
+    .relative-section {
+        padding-bottom: 196px;
+        margin-top: 30px;
+        position: relative;
+
+        .cup-image {
+            position: absolute;
+            top: 0;
+            left: 18%;
+        }
+
+        .full-round {
+            position: absolute;
+            top: 40%;
+            left: 20%;
+        }
+
+        .add-job-image-alignment {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+            .add-job-img {
+                position: relative;
+
+                img {
+                    max-width: 449px;
+                    height: 336px;
+                }
+
+                .ball-image {
+                    position: absolute;
+                    right: -8%;
+                    top: 15%;
+
+                    img {
+                        width: 33px;
+                        height: 32px;
+                    }
+                }
+
+                .dish-image {
+
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+
+                    img {
+                        width: 37px;
+                        height: 33px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}

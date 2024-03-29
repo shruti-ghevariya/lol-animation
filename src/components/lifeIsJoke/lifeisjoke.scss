@@ -1,0 +1,189 @@
+.life-is-joke {
+    padding: 140px 0;
+    position: relative;
+
+    .light-blur-right-align {
+        display: flex;
+        justify-content: flex-end;
+
+        .light-blur {
+            height: 158px;
+            width: 172px;
+            background-color: #e86b7a;
+            opacity: 0.75;
+            ;
+            filter: blur(133.505px);
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+
+        .grid-item {
+
+            .joy-icon {
+                margin-bottom: 10px;
+
+                img {
+                    animation: scale-now 2s linear infinite;
+
+                    @keyframes scale-now {
+                        0% {
+                            transform: scale(1);
+                        }
+
+                        50% {
+                            transform: scale(1.4);
+                        }
+
+                        100% {
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                font-family: sans-serif;
+                font-size: 47px;
+                line-height: 1.3;
+                letter-spacing: -.02px;
+                font-weight: 600;
+                margin: 0 0 2rem;
+                color: #15122f;
+            }
+
+            p {
+                color: #747474;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: .02em;
+                margin: 16px 0;
+            }
+
+            .vector-line {
+                margin-left: 301px;
+            }
+
+            .do-something {
+                button {
+                    background: linear-gradient(271.4deg, #4c3eec -12.37%, #3e2df7 116.08%);
+                    min-width: 291px;
+                    padding: 0 24px;
+                    color: #fff;
+                    height: 63px;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    letter-spacing: .02em;
+                    box-shadow: 0 4px 18px rgba(79, 65, 235, .4);
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transform: rotate(-5deg);
+                    border-radius: 20px;
+
+                    span {
+                        padding-right: 13px;
+                    }
+                }
+            }
+        }
+
+        .grid-items {
+            .fist-image-style {
+
+                position: absolute;
+                right: 14%;
+                top: 140px;
+                animation: right-side-icon 2s linear infinite;
+
+                img {
+                    height: 70px;
+                    width: 70px;
+                }
+            }
+
+            @keyframes right-side-icon {
+                0% {
+                    transform: translateY(0);
+                }
+
+                50% {
+                    transform: translateY(10px);
+                }
+
+                100% {
+                    transform: translateY(0);
+                }
+            }
+
+            .vector-sec {
+                position: absolute;
+                right: 38%;
+                top: 28%;
+
+                img {
+                    width: 45px;
+                    height: 41px;
+
+                }
+            }
+
+            .vector-three {
+
+                position: absolute;
+                right: 41%;
+                bottom: 35%;
+
+                img {
+                    height: 49px;
+                    width: 47px;
+                }
+            }
+
+            .vector-four {
+                position: absolute;
+                bottom: 18%;
+                right: 33%;
+
+                img {
+                    height: 34px;
+                    width: 34px;
+                }
+            }
+
+            .face-icon-center {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 421px;
+                    height: 421px;
+                    animation: scale-now-first 2s linear infinite;
+                }
+
+                @keyframes scale-now-first {
+                    0% {
+                        transform: scale(1);
+                    }
+
+                    50% {
+                        transform: scale(1.1);
+                    }
+
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+    }
+}

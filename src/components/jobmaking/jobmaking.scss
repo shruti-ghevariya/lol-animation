@@ -1,0 +1,61 @@
+.job-making-section {
+    padding-bottom: 195px;
+
+    .grid {
+        display: grid;
+        grid-template-columns: 516px minmax(0, 1fr);
+        gap: 60px;
+
+        .grid-items {
+
+            poster-img {
+                img {
+                    width: 516px;
+                }
+            }
+
+            h1 {
+                font-size: 50px;
+                letter-spacing: -.02em;
+                color: #14122c;
+                font-weight: 600;
+                margin: 0 0 48px;
+                line-height: 70px;
+            }
+
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: .02em;
+                color: #747474;
+                line-height: 25px;
+                margin: 0 0 43px;
+            }
+
+            .do-something {
+                button {
+                    background: linear-gradient(271.4deg,#322993 -12.37%,#5d54c7 116.08%);
+                    min-width: 291px;
+                    padding: 0 24px;
+                    color: #fff;
+                    height: 63px;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    letter-spacing: .02em;
+                    box-shadow: 0 4px 18px rgba(79,65,235,.4);
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transform: rotate(-5deg);
+                    border-radius: 20px;
+
+                    span {
+                        padding-right: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
